@@ -8,3 +8,12 @@ wheels/
 
 # venv
 .venv
+
+# env file
+.env
+
+# vscode
+.vscode/
+
+# database
+db.sqlite3

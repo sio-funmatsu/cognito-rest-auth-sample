@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from cognito_rest_auth.views import LoginView
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("login/", LoginView.as_view(), name="login"),
 ]
